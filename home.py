@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # 1. Load Dataset
 
-file = pd.read_csv(r"e:\Stud\3-ML\بيت\house_price.csv")
+file = pd.read_csv("house_price.csv")
 
 x1 = file["area"].to_numpy(dtype=float)
 x2 = file["rooms"].to_numpy(dtype=float)
